@@ -11,7 +11,7 @@ h2 {
     color: darkred;
 }
 
-h3, 
+h3,
 p,
 li {
     color: green;
@@ -30,6 +30,10 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+}
+
+nav {
+    width: 100%;
 }
 
 nav ul {
@@ -72,15 +76,37 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
     border: 3px solid black;
     width: 100%;
 }
-  
+
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.locations {
+    list-style-type: none;
+    text-align: center;
+}
+
+.holiday {
+    width: auto;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.highlight {
+    color: blueviolet;
+}
+
+.footer {
+    background-color: rgb(123, 98, 98);
+    width: auto;
+    padding: 20px;
 }
