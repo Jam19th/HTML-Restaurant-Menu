@@ -103,10 +103,13 @@ th {
 
 .highlight {
     color: blueviolet;
+    padding: 1em, 0.5em;
 }
 
 .footer {
     background-color: rgb(123, 98, 98);
     width: auto;
     padding: 20px;
+    border-width: 10px;
+    margin: auto;
 }
